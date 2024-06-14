@@ -1,0 +1,36 @@
+/* app.component.css */
+
+/* Global styles */
+:host {
+  display: block;
+}
+
+/* Header styles */
+header {
+  background-color: #003366; /* Dark blue */
+  color: #fff;
+  padding: 10px;
+}
+
+header h1 {
+  margin:0;
+}
+header a{
+  color: #fff;
+  padding: 15px;
+}
+/* Main content area */
+main {
+  padding: 40px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #003366; /* Dark blue */
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
